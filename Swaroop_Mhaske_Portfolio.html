@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///C:/Users/icon/Downloads/Swaroop_Mhaske_Portfolio.html#education -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swaroop Mhaske — CA | Finance &amp; ERP Consultant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link href="./Swaroop_Mhaske_Portfolio_files/css2" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy:    #0D1B2A;
+    --card:    #1E3A52;
+    --teal:    #00C2A8;
+    --teal-dim:#007A6C;
+    --cream:   #F0EBE3;
+    --muted:   #8BA3B5;
+    --border:  #1F3D57;
+    --fs-hero: clamp(2.4rem, 5vw, 4rem);
+    --fs-h2:   clamp(1.3rem, 2.5vw, 1.7rem);
+    --fs-h3:   1.05rem;
+    --fs-body: 0.92rem;
+    --fs-sm:   0.8rem;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--navy);
+    color: var(--cream);
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-body);
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  /* ── LAYOUT ── */
+  .layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--navy);
+    border-right: 1px solid var(--border);
+    padding: 2.5rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    scrollbar-width: none;
+  }
+  .sidebar::-webkit-scrollbar { display: none; }
+
+  .avatar-ring {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--teal);
+    display: flex; align-items: center; justify-content: center;
+    background: var(--card);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--teal);
+    letter-spacing: -1px;
+    flex-shrink: 0;
+  }
+
+  .sidebar-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--cream);
+    line-height: 1.2;
+  }
+  .sidebar-title {
+    font-size: 0.78rem;
+    color: var(--teal);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 0.25rem;
+  }
+  .sidebar-location {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.2rem;
+  }
+
+  .sidebar-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .sidebar-nav a {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.18s;
+    border: 1px solid transparent;
+  }
+  .sidebar-nav a:hover,
+  .sidebar-nav a.active {
+    color: var(--cream);
+    background: var(--card);
+    border-color: var(--border);
+  }
+  .sidebar-nav a.active { color: var(--teal); }
+  .nav-icon { width: 16px; opacity: 0.7; flex-shrink: 0; }
+
+  .sidebar-contact {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .contact-link {
+    display: flex; align-items: center; gap: 0.5rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+    text-decoration: none;
+    transition: color 0.18s;
+  }
+  .contact-link:hover { color: var(--teal); }
+
+  .open-to-work {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    background: rgba(0,194,168,0.12);
+    border: 1px solid rgba(0,194,168,0.3);
+    color: var(--teal);
+    border-radius: 20px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .open-to-work::before {
+    content: '';
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--teal);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.3); }
+  }
+
+  /* ── MAIN ── */
+  .main { padding: 0; overflow: hidden; }
+
+  /* ── HERO ── */
+  .hero {
+    padding: 4rem 3rem 3rem;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,194,168,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--teal);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .hero-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: var(--fs-hero);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    margin-bottom: 1rem;
+  }
+  .hero-name span { color: var(--teal); }
+
+  .hero-tagline {
+    font-size: 1rem;
+    color: var(--muted);
+    max-width: 560px;
+    line-height: 1.65;
+    margin-bottom: 2rem;
+  }
+
+  /* ── TICKER ── */
+  .ticker-wrap {
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card);
+    padding: 0.6rem 1rem;
+  }
+  .ticker-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--teal);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+  }
+  .ticker-track {
+    display: flex;
+    gap: 2.5rem;
+    animation: ticker 28s linear infinite;
+    width: max-content;
+  }
+  .ticker-track:hover { animation-play-state: paused; }
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .ticker-item {
+    display: flex; align-items: baseline; gap: 0.4rem;
+    white-space: nowrap;
+  }
+  .ticker-num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--cream);
+  }
+  .ticker-desc {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .ticker-sep {
+    color: var(--border);
+    font-size: 0.9rem;
+    align-self: center;
+  }
+
+  .hero-cta {
+    display: flex; gap: 1rem; flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 6px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.18s;
+    cursor: pointer;
+    border: none;
+  }
+  .btn-primary {
+    background: var(--teal);
+    color: var(--navy);
+  }
+  .btn-primary:hover { background: #00d9bc; }
+  .btn-ghost {
+    background: transparent;
+    color: var(--cream);
+    border: 1px solid var(--border);
+  }
+  .btn-ghost:hover { border-color: var(--teal); color: var(--teal); }
+
+  /* ── SECTIONS ── */
+  .section {
+    padding: 3rem 3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .section:last-child { border-bottom: none; }
+
+  .section-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--teal);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 2rem;
+  }
+
+  /* ── ABOUT ── */
+  .about-text {
+    color: #C4D4DE;
+    max-width: 680px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+  .about-text strong { color: var(--cream); }
+
+  /* ── EXPERIENCE ── */
+  .exp-list { display: flex; flex-direction: column; gap: 2rem; }
+
+  .exp-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.6rem;
+    position: relative;
+    transition: border-color 0.2s;
+  }
+  .exp-card:hover { border-color: var(--teal); }
+  .exp-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 1.5rem; bottom: 1.5rem;
+    width: 3px;
+    background: var(--teal);
+    border-radius: 3px;
+    opacity: 0.5;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.3rem;
+    flex-wrap: wrap;
+  }
+  .exp-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--cream);
+  }
+  .exp-date {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    white-space: nowrap;
+    padding-top: 0.2rem;
+  }
+  .exp-role {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--teal);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .exp-sub { margin-bottom: 0.4rem; }
+  .exp-sub-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.4rem;
+    margin-top: 1rem;
+  }
+
+  .bullet-list { list-style: none; padding: 0; }
+  .bullet-list li {
+    position: relative;
+    padding-left: 1.2rem;
+    color: #B0C8D8;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    margin-bottom: 0.4rem;
+  }
+  .bullet-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--teal);
+    font-size: 0.7rem;
+    top: 0.25rem;
+  }
+  .bullet-list li strong { color: var(--cream); }
+
+  /* ── PROJECTS ── */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.2rem;
+  }
+
+  .project-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.4rem;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .project-card:hover {
+    border-color: var(--teal);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(0,194,168,0.1);
+  }
+
+  .project-icon {
+    width: 38px; height: 38px;
+    border-radius: 8px;
+    background: rgba(0,194,168,0.12);
+    border: 1px solid rgba(0,194,168,0.25);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+  }
+  .project-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--cream);
+  }
+  .project-desc {
+    font-size: 0.82rem;
+    color: #8BA3B5;
+    line-height: 1.6;
+    flex: 1;
+  }
+  .project-tags {
+    display: flex; flex-wrap: wrap; gap: 0.35rem;
+  }
+  .tag {
+    background: rgba(0,194,168,0.08);
+    border: 1px solid rgba(0,194,168,0.2);
+    color: var(--teal);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── SKILLS ── */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  .skill-group {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem;
+  }
+  .skill-group-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--teal);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+  }
+  .skill-chips {
+    display: flex; flex-wrap: wrap; gap: 0.4rem;
+  }
+  .skill-chip {
+    background: rgba(240,235,227,0.06);
+    border: 1px solid var(--border);
+    color: #C4D4DE;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    transition: all 0.15s;
+  }
+  .skill-chip:hover {
+    background: rgba(0,194,168,0.1);
+    border-color: rgba(0,194,168,0.3);
+    color: var(--cream);
+  }
+
+  /* ── EDUCATION ── */
+  .edu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .edu-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem 1.4rem;
+    transition: border-color 0.2s;
+  }
+  .edu-card:hover { border-color: var(--teal); }
+  .edu-qual {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--cream);
+    margin-bottom: 0.2rem;
+  }
+  .edu-inst {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .edu-meta {
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 0.3rem;
+  }
+  .edu-score {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--teal);
+    font-weight: 700;
+  }
+  .edu-year {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+  }
+
+  /* ── CERTIFICATIONS ── */
+  .cert-list { display: flex; flex-direction: column; gap: 0.7rem; }
+  .cert-item {
+    display: flex; align-items: center; gap: 1rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.9rem 1.2rem;
+    transition: border-color 0.2s;
+  }
+  .cert-item:hover { border-color: var(--teal); }
+  .cert-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--teal);
+    flex-shrink: 0;
+  }
+  .cert-name {
+    font-size: 0.88rem;
+    color: var(--cream);
+    font-weight: 500;
+    flex: 1;
+  }
+  .cert-issuer {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  /* ── STATS STRIP ── */
+  .stats-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+  }
+  .stat-item {
+    padding: 1.4rem;
+    border-right: 1px solid var(--border);
+    text-align: center;
+    background: var(--card);
+    transition: background 0.2s;
+  }
+  .stat-item:last-child { border-right: none; }
+  .stat-item:hover { background: rgba(0,194,168,0.06); }
+  .stat-num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--teal);
+    display: block;
+    line-height: 1.1;
+  }
+  .stat-label {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 0.3rem;
+    display: block;
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 768px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar {
+      position: static;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+    }
+    .sidebar-nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .sidebar-contact { display: none; }
+    .hero { padding: 2rem 1.5rem; }
+    .section { padding: 2rem 1.5rem; }
+    .stats-strip { grid-template-columns: repeat(2, 1fr); }
+    .stats-strip .stat-item:nth-child(2) { border-right: none; }
+    .stats-strip .stat-item:nth-child(3) { border-top: 1px solid var(--border); }
+    .stats-strip .stat-item:nth-child(4) { border-top: 1px solid var(--border); border-right: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; }
+    .open-to-work::before { animation: none; }
+  }
+
+  /* ── SCROLLBAR ── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--navy); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ── SIDEBAR ── -->
+  <aside class="sidebar">
+    <div class="avatar-ring">SM</div>
+
+    <div>
+      <div class="open-to-work">Open to Work</div>
+      <div class="sidebar-name">Swaroop Mhaske</div>
+      <div class="sidebar-title">CA · ERP &amp; Finance Consultant</div>
+      <div class="sidebar-location">📍 Chhatrapati Sambhaji Nagar, MH</div>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="file:///C:/Users/icon/Downloads/Swaroop_Mhaske_Portfolio.html#about" class="">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"></path></svg>
+        About
+      </a></li>
+      <li><a href="file:///C:/Users/icon/Downloads/Swaroop_Mhaske_Portfolio.html#experience" class="">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path></svg>
+        Experience
+      </a></li>
+      <li><a href="file:///C:/Users/icon/Downloads/Swaroop_Mhaske_Portfolio.html#projects" class="">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+        Projects
+      </a></li>
+      <li><a href="file:///C:/Users/icon/Downloads/Swaroop_Mhaske_Portfolio.html#skills" class="">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3m0 14v3M4.22 4.22l2.12 2.12m11.32 11.32 2.12 2.12M2 12h3m14 0h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"></path></svg>
+        Skills
+      </a></li>
+      <li><a href="file:///C:/Users/icon/Downloads/Swaroop_Mhaske_Portfolio.html#education" class="active">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+        Education
+      </a></li>
+    </ul>
+
+    <div class="sidebar-contact">
+      <a href="mailto:Mhaskeswaroop83@gmail.com" class="contact-link">
+        <svg width="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><polyline points="22,4 12,13 2,4"></polyline></svg>
+        Mhaskeswaroop83@gmail.com
+      </a>
+      <a href="tel:+919175834811" class="contact-link">
+        <svg width="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6 19.79 19.79 0 0 1 1.61 5a2 2 0 0 1 1.99-2H6.6a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.6a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 18"></path></svg>
+        +91-9175834811
+      </a>
+      <a href="https://linkedin.com/in/swaroopmhaske" target="_blank" class="contact-link">
+        <svg width="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        linkedin.com/in/swaroopmhaske
+      </a>
+    </div>
+  </aside>
+
+  <!-- ── MAIN ── -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero" id="about">
+      <div class="hero-eyebrow">Chartered Accountant · 8 Exemptions</div>
+      <h1 class="hero-name">Finance meets<br><span>Systems Thinking.</span></h1>
+      <p class="hero-tagline">
+        CA fresher with 36 months of hands-on experience in corporate finance, ERP-led process automation, GST compliance, and statutory audit. I'm the person who makes finance teams stop using 40-column spreadsheets.
+      </p>
+
+      <!-- TICKER -->
+      <div class="ticker-wrap">
+        <div class="ticker-label">⬛ Live Metrics</div>
+        <div class="ticker-track" id="ticker">
+          <div class="ticker-item"><span class="ticker-num">5,000+</span><span class="ticker-desc">Fixed Assets Verified</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">98.3%</span><span class="ticker-desc">Confirmation Rate</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">170+</span><span class="ticker-desc">Suppliers Automated</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">5–6 hrs</span><span class="ticker-desc">Saved per Close Cycle</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">150+</span><span class="ticker-desc">ITRs Filed</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">40+</span><span class="ticker-desc">GST Returns Filed</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">5–15 days</span><span class="ticker-desc">Manual Effort Saved / Engagement</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">80+</span><span class="ticker-desc">Tax Clients Served</span></div>
+          <div class="ticker-sep">·</div>
+          <!-- duplicate for seamless loop -->
+          <div class="ticker-item"><span class="ticker-num">5,000+</span><span class="ticker-desc">Fixed Assets Verified</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">98.3%</span><span class="ticker-desc">Confirmation Rate</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">170+</span><span class="ticker-desc">Suppliers Automated</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">5–6 hrs</span><span class="ticker-desc">Saved per Close Cycle</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">150+</span><span class="ticker-desc">ITRs Filed</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">40+</span><span class="ticker-desc">GST Returns Filed</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">5–15 days</span><span class="ticker-desc">Manual Effort Saved / Engagement</span></div>
+          <div class="ticker-sep">·</div>
+          <div class="ticker-item"><span class="ticker-num">80+</span><span class="ticker-desc">Tax Clients Served</span></div>
+        </div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="file:///C:/Swaroop_Mhaske_Resume.pdf" class="btn btn-primary" download="">
+          <svg width="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Download Resume
+        </a>
+        <a href="mailto:Mhaskeswaroop83@gmail.com" class="btn btn-ghost">
+          <svg width="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="4" width="20" height="16" rx="2"></rect><polyline points="22,4 12,13 2,4"></polyline></svg>
+          Get in Touch
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section">
+      <div class="section-label">Background</div>
+      <h2 class="section-title">Who I Am</h2>
+
+      <div class="stats-strip">
+        <div class="stat-item">
+          <span class="stat-num">8</span>
+          <span class="stat-label">CA Exemptions</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">36mo</span>
+          <span class="stat-label">Combined Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Legal Entities Handled</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">Fortune 500</span>
+          <span class="stat-label">Industrial Training</span>
+        </div>
+      </div>
+
+      <p class="about-text">
+        I'm a <strong>Chartered Accountant</strong> who qualified in 2026 with 8 subject exemptions — the result of years of combining rigorous study with real-world finance operations at <strong>Cummins Inc.</strong> (Fortune 500) and a multi-client articleship at <strong>PSB and Associates</strong>.
+      </p>
+      <br>
+      <p class="about-text">
+        My interest isn't in traditional CA practice for its own sake — it's in the intersection of <strong>finance domain knowledge and technology-led transformation</strong>. At Cummins, I didn't just close books: I built automation tools that eliminated hours of manual work, coordinated with IT teams to scope process improvements, and acted as the bridge between what finance needed and what systems could deliver.
+      </p>
+      <br>
+      <p class="about-text">
+        That's the kind of work I want to do at scale: helping finance teams stop firefighting and start operating with clean systems, reliable data, and processes that don't break every month-end.
+      </p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-label">Work History</div>
+      <h2 class="section-title">Experience</h2>
+
+      <div class="exp-list">
+
+        <!-- Cummins -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-company">Cummins Inc.</div>
+              <div class="exp-role">Industrial Trainee — Corporate Finance</div>
+            </div>
+            <div class="exp-date">Nov 2024 – Mar 2026<br>Pune, Maharashtra</div>
+          </div>
+
+          <div class="exp-sub-label">Process Automation &amp; Digital Transformation</div>
+          <ul class="bullet-list">
+            <li>Built an <strong>automated email workflow</strong> across 170+ suppliers — auto-generated PDFs, balance worksheets, and follow-up reminders, eliminating all manual correspondence; achieved <strong>98.3% confirmation rate</strong> across 5,000+ fixed assets spanning 3 legal entities</li>
+            <li>Designed a <strong>month-end close tracking dashboard</strong> saving 5–6 hours per close cycle; acted as functional bridge between finance users and IT/CTB teams to scope and deliver process improvements</li>
+            <li>Led <strong>automation project tracker discussions</strong> across finance operations — coordinated with IT and business stakeholders to scope, prioritize, and drive cross-functional improvements</li>
+          </ul>
+
+          <div class="exp-sub-label">Financial Reporting &amp; Controls</div>
+          <ul class="bullet-list">
+            <li>Managed monthly close cycles across <strong>9 GL accounting streams</strong> (PTD/YTD) for 3 legal entities; conducted HFM variance analysis for Miscellaneous Income &amp; Expenses per IGAAP mapping</li>
+            <li>Conducted monthly ARM health checks on <strong>25+ balance sheet reconciliations</strong>; coordinated BS Review Pack with CBS teams, maintaining zero reconciliation backlog</li>
+            <li>Prepared capital commitment schedules, <strong>AOP vs Actuals &amp; Forecast</strong> schedules, quarterly inter-unit reconciliations, and Related Party disclosures for 3 entities</li>
+          </ul>
+        </div>
+
+        <!-- PSB -->
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-company">PSB and Associates</div>
+              <div class="exp-role">Article Assistant</div>
+            </div>
+            <div class="exp-date">Feb 2023 – Oct 2024<br>Chhatrapati Sambhaji Nagar</div>
+          </div>
+
+          <div class="exp-sub-label">Automation &amp; Client Delivery</div>
+          <ul class="bullet-list">
+            <li>Built Excel automation templates for bulk Tally Prime GL entry imports — saved <strong>5–15 days of manual effort per engagement</strong> across multiple clients</li>
+            <li>Developed <strong>GSTR-2B vs. purchase register</strong> and GSTR-1 vs. sales register auto-reconciliation templates — eliminating hours of manual reconciliation per filing cycle</li>
+            <li>Managed end-to-end client engagements across <strong>Healthcare, Trading, and Banking</strong> industries — sole point of contact for compliance, financial statement finalization, and audit execution</li>
+          </ul>
+
+          <div class="exp-sub-label">Taxation &amp; Audit</div>
+          <ul class="bullet-list">
+            <li>Prepared <strong>150+ Income Tax returns</strong> and Tax Audit Reports (Form 3CA-3CD &amp; 3CB-3CD) across Individuals, Firms, HUFs, and Companies for 80+ clients</li>
+            <li>Filed 40+ GST returns (GSTR-1, 3B, GSTR-9, GSTR-9C) including annual reconciliation for clients with turnover above ₹5 Cr; verified ITC and output tax liabilities</li>
+            <li>Conducted statutory, internal, inventory, and concurrent bank audit procedures across Healthcare, Trading, and Banking sectors</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-label">Built Things</div>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon">📧</div>
+          <div class="project-name">Automated Supplier Confirmation Workflow</div>
+          <div class="project-desc">
+            End-to-end automation replacing manual email correspondence for fixed asset confirmation across 170+ suppliers. Auto-generated supplier-specific PDFs, balance worksheets, and follow-up sequences. Achieved 98.3% confirmation rate across 5,000+ assets across 3 Cummins legal entities.
+          </div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Excel VBA</span>
+            <span class="tag">Cummins</span>
+            <span class="tag">Process Automation</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">📊</div>
+          <div class="project-name">Month-End Close Tracking Dashboard</div>
+          <div class="project-desc">
+            Designed a dashboard categorizing one-time transactions with weekly completion visibility for the finance close cycle. Saved 5–6 hours per close cycle. Acted as functional bridge between finance users and IT/CTB teams to define requirements and automate tracking.
+          </div>
+          <div class="project-tags">
+            <span class="tag">Excel</span>
+            <span class="tag">Dashboard Design</span>
+            <span class="tag">Month-End Close</span>
+            <span class="tag">HFM</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🔄</div>
+          <div class="project-name">GST Auto-Reconciliation Templates</div>
+          <div class="project-desc">
+            Built Excel-based auto-reconciliation templates for GSTR-2B vs. purchase register and GSTR-1 vs. sales register matching. Deployed across multiple articleship clients, eliminating hours of manual matching work per filing period and reducing reconciliation errors significantly.
+          </div>
+          <div class="project-tags">
+            <span class="tag">Excel</span>
+            <span class="tag">GST Compliance</span>
+            <span class="tag">Reconciliation</span>
+            <span class="tag">Tally Prime</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">⚡</div>
+          <div class="project-name">Tally Prime GL Entry Automation</div>
+          <div class="project-desc">
+            Developed Excel templates for bulk GL entry import into Tally Prime, replacing line-by-line manual data entry across articleship clients. Saved 5–15 days of manual effort per client engagement and significantly reduced entry errors during tax season.
+          </div>
+          <div class="project-tags">
+            <span class="tag">Excel</span>
+            <span class="tag">Tally Prime</span>
+            <span class="tag">GL Automation</span>
+            <span class="tag">Articleship</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🏥</div>
+          <div class="project-name">Healthcare Wait-List Analytics Dashboard</div>
+          <div class="project-desc">
+            Built a Power BI dashboard analyzing patient wait-list data across 20+ medical specialties spanning 2018–2021 — with case-type split (Outpatient ~86% of volume vs. Day Case/Inpatient), time-band vs. age-profile views, and specialty-wise drilldowns across a combined wait-list dataset of 24.6M+ records.
+          </div>
+          <div class="project-tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">DAX</span>
+            <span class="tag">Healthcare Analytics</span>
+            <span class="tag">Data Visualization</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">📈</div>
+          <div class="project-name">Retail Sales Performance Dashboard</div>
+          <div class="project-desc">
+            Designed an interactive Power BI dashboard on a $2.3M+ retail sales dataset — segmented by customer type (Consumer, Corporate, Home Office), region (West/East/Central/South), and 17 product sub-categories, with order-date drill-throughs (2019–2021) and a geographic sales map. West and East together drove over 60% of revenue.
+          </div>
+          <div class="project-tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">DAX</span>
+            <span class="tag">Retail Analytics</span>
+            <span class="tag">Sales Performance</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🧮</div>
+          <div class="project-name">Equity Valuation &amp; Financial Modeling Portfolio</div>
+          <div class="project-desc">
+            Built a sequence of equity valuation models on real, listed Indian companies through The Valuation School's coursework — 3-statement forecasting and ratio analysis (ITC, Tata Motors), Beta regression and DCF with a 13.04% WACC (Avenue Supermarts/DMart), relative valuation against 10 pharma peers (Cipla), historical VaR &amp; Monte Carlo simulation (Tata Elxsi), and DuPont ROE decomposition (DMart).
+          </div>
+          <div class="project-tags">
+            <span class="tag">DCF &amp; WACC</span>
+            <span class="tag">Relative Valuation</span>
+            <span class="tag">DuPont Analysis</span>
+            <span class="tag">The Valuation School</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🤖</div>
+          <div class="project-name">Trading Strategy Backtester</div>
+          <div class="project-desc">
+            Built a Python-based backtester for a custom "Down-Wick Reversal" trading strategy using OHLCV data. Implemented signal logic, position sizing, and performance metrics from scratch. A personal project exploring algorithmic finance and data-driven decision making.
+          </div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Backtesting</span>
+            <span class="tag">Algorithmic Trading</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-label">Toolkit</div>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-group-label">ERP &amp; Finance Systems</div>
+          <div class="skill-chips">
+            <span class="skill-chip">Oracle</span>
+            <span class="skill-chip">HFM</span>
+            <span class="skill-chip">ARM</span>
+            <span class="skill-chip">Tally Prime</span>
+            <span class="skill-chip">ERPNext</span>
+            <span class="skill-chip">SAP (conceptual)</span>
+            <span class="skill-chip">Odoo (conceptual)</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Data &amp; Visualization</div>
+          <div class="skill-chips">
+            <span class="skill-chip">Advanced Excel</span>
+            <span class="skill-chip">Power BI</span>
+            <span class="skill-chip">Tableau</span>
+            <span class="skill-chip">Excel VBA</span>
+            <span class="skill-chip">DAX</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Finance Domain</div>
+          <div class="skill-chips">
+            <span class="skill-chip">FP&amp;A</span>
+            <span class="skill-chip">Month-End Close</span>
+            <span class="skill-chip">IGAAP</span>
+            <span class="skill-chip">HFM Reporting</span>
+            <span class="skill-chip">Balance Sheet Recon</span>
+            <span class="skill-chip">MIS Reporting</span>
+            <span class="skill-chip">Fixed Assets</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Tax &amp; Compliance</div>
+          <div class="skill-chips">
+            <span class="skill-chip">Direct Tax</span>
+            <span class="skill-chip">GST / Indirect Tax</span>
+            <span class="skill-chip">TDS Compliance</span>
+            <span class="skill-chip">Tax Audit</span>
+            <span class="skill-chip">Tax Power</span>
+            <span class="skill-chip">Tax Suite</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Audit</div>
+          <div class="skill-chips">
+            <span class="skill-chip">Statutory Audit</span>
+            <span class="skill-chip">Internal Audit</span>
+            <span class="skill-chip">Concurrent Audit</span>
+            <span class="skill-chip">Inventory Audit</span>
+            <span class="skill-chip">IFC Controls</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Tech &amp; AI Tools</div>
+          <div class="skill-chips">
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">Google AI Studio</span>
+            <span class="skill-chip">Prompt Engineering</span>
+            <span class="skill-chip">Claude</span>
+            <span class="skill-chip">ChatGPT</span>
+            <span class="skill-chip">Eleven Labs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-label">Academic Background</div>
+      <h2 class="section-title">Education</h2>
+
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-qual">CA Final — Group 2</div>
+          <div class="edu-inst">ICAI</div>
+          <div class="edu-meta">
+            <span class="edu-score">178/300 · 2 exemptions</span>
+            <span class="edu-year">Jan 2026</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-qual">CA Final — Group 1</div>
+          <div class="edu-inst">ICAI</div>
+          <div class="edu-meta">
+            <span class="edu-score">154/300 · First attempt</span>
+            <span class="edu-year">Jan 2026</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-qual">CA Intermediate</div>
+          <div class="edu-inst">ICAI</div>
+          <div class="edu-meta">
+            <span class="edu-score">442/800 · 3 exemptions</span>
+            <span class="edu-year">Nov 2022 &amp; May 2023</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-qual">CA Foundation</div>
+          <div class="edu-inst">ICAI</div>
+          <div class="edu-meta">
+            <span class="edu-score">272/400 · 3 exemptions</span>
+            <span class="edu-year">June 2021</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-qual">B.Com</div>
+          <div class="edu-inst">Deogiri College, BAMU University</div>
+          <div class="edu-meta">
+            <span class="edu-score">7 CGPA</span>
+            <span class="edu-year">March 2025</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-qual">HSC</div>
+          <div class="edu-inst">Maharashtra State Board</div>
+          <div class="edu-meta">
+            <span class="edu-score">97.33%</span>
+            <span class="edu-year">March 2021</span>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="section-label" style="margin-top:2rem">Certifications</div>
+      <br>
+      <div class="cert-list">
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div class="cert-name">Advanced IT Training (ACITTSS)</div>
+          <div class="cert-issuer">ICAI</div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div class="cert-name">AI for Finance</div>
+          <div class="cert-issuer">CA Monk</div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div class="cert-name">Financial Modeling</div>
+          <div class="cert-issuer">The Valuation School</div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+<script>
+  // Active nav highlight on scroll
+  const sections = document.querySelectorAll('[id]');
+  const navLinks = document.querySelectorAll('.sidebar-nav a');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        const active = document.querySelector(`.sidebar-nav a[href="#${entry.target.id}"]`);
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { threshold: 0.3 });
+
+  sections.forEach(s => observer.observe(s));
+
+  // Duplicate ticker for seamless loop - already done in HTML
+</script>
+
+
+
+</body></html>
